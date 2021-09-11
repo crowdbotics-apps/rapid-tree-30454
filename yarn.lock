@@ -955,9 +955,6 @@
 "@modules/app-menu@file:./modules/app-menu":
   version "1.0.0"
 
-"@modules/app-menu@file:./modules/app-menu/":
-  version "1.0.0"
-
 "@modules/login@file:./modules/login":
   version "1.0.0"
   dependencies:
@@ -978,6 +975,12 @@
     uuid "^8.3.2"
 
 "@modules/user-profile@file:./modules/user-profile":
+  version "1.0.0"
+  dependencies:
+    "@react-navigation/native" "^5.9.2"
+    react-native-elements "^2.3.2"
+
+"@modules/user-profile@file:./modules/user-profile/":
   version "1.0.0"
   dependencies:
     "@react-navigation/native" "^5.9.2"
